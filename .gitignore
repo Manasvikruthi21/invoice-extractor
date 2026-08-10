@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
+
+# Storage / logs
+app/storage/uploads/*
+!app/storage/uploads/.gitkeep
+
+app/storage/processed/*
+!app/storage/processed/.gitkeep
+
+app/storage/outputs/*
+!app/storage/outputs/.gitkeep
+
+app/storage/logs/*
+!app/storage/logs/.gitkeep
+
+# Python cache
+*.log
+.DS_Store

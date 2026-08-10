@@ -1,0 +1,19 @@
+# Core Dependencies
+fastapi>=0.100.0
+uvicorn>=0.22.0
+pydantic>=2.0
+pydantic-settings>=2.0
+langgraph>=0.0.10
+langchain-core>=0.1.0
+# OCR Engines
+easyocr>=1.7.0
+# PaddleOCR and RapidOCR if needed
+# LLM SDKs
+google-generativeai>=0.3.0
+openai>=1.0.0
+# Image Processing
+opencv-python-headless>=4.7.0
+pillow>=9.5.0
+# Utilities
+python-multipart>=0.0.6
+loguru>=0.7.0
